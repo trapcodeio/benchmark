@@ -3,6 +3,8 @@ node_modules
 .vscode
 bin
 tests
+tsconfig.json
+.prettierrc
 
 # Exclude
 *.ts
