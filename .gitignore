@@ -1,0 +1,9 @@
+node_modules
+.idea
+.vscode
+
+# Exclude
+*.js
+*.d.ts
+*.log
+pnpm-lock.yaml
