@@ -10,8 +10,10 @@ yarn add @trapcode/benchmark
 ```
 
 ## Functions
+List of functions available in this package.
 
 - [benchmarkFunctions](#benchmarkfunctions)
+
 
 
 ### benchmarkFunctions
@@ -53,4 +55,12 @@ benchmarkFunctions([One, Two, Three]).run();
 
 // Or an object of functions.
 benchmarkFunctions({ One, Two, Three }).run();
+```
+
+Result
+```js
+One x 894,565,407 ops/sec ±1.12% (84 runs sampled)
+Two x 16,723,630 ops/sec ±0.89% (90 runs sampled)
+Three x 190,309 ops/sec ±0.46% (95 runs sampled)
+Fastest is [One]
 ```
