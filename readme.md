@@ -17,7 +17,7 @@ List of functions available in this package.
 
 
 ### benchmarkFunctions
-This function benchmarks an array or record given to it.
+This function benchmarks an array/record of functions given to it.
 
 #### Syntax 
 ```javascript
