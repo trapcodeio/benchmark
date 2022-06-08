@@ -14,6 +14,7 @@ export function benchmarkFunctions(functions: BenchmarkFunction, options?: Optio
 
 /**
  * Benchmark functions with name
+ * @param name - Name of the benchmark Group
  * @param functions - Functions to benchmark
  * @param options - Benchmark Options
  * @example
